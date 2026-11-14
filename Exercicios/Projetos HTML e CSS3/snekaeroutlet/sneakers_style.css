@@ -1,0 +1,339 @@
+@charset "UTF 8";
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font_titulo: "Poppins";
+    --font_texto: "Instrument Sans";
+
+    --cor01: #202A4D;
+    --cor02: #12172B;
+    --cor03: #9165AB;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin-top: 30px;
+    background-color: var(--cor01);
+    color: white;
+    font-family: var(--font_texto);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+header img {
+    width: 150px;
+    display: block;
+    padding: 12px 0px;
+    
+}
+
+header h1 {
+    padding-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+nav {
+    background-color: var(--cor01);
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--font_texto);
+    font-size: 0.9em;
+    padding: 15px;
+    
+}
+
+nav a:hover {
+    background-color: var(--cor02);
+    padding: 5px;
+    border-radius: 2px;
+   
+}
+
+main {
+   
+   margin: auto;
+   min-width: 300px;
+   max-width: 800px;
+}
+
+main h2 {
+    font-size: 0.9em;
+    font-family: var(--font_texto);
+    font-weight: normal;
+    text-align: center;
+    padding-top: px;
+    padding-bottom: 15px;
+}
+
+main p {
+    font-family: var(--font_titulo);
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    padding-bottom: 60px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 600px;
+    
+}
+
+main h3 {
+    font-family: var(--font_titulo);
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+article {
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   
+
+}
+
+article > img {
+   margin: 12px;
+   width: 250px;
+      
+}
+
+article.produtos > img {
+    padding-bottom: 60px;
+
+}
+
+picture {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    text-align: center;
+    display: block;
+}
+
+picture.desconto > img {
+    margin: 15px;
+    width: 300px;
+}
+
+main > p.depoimentos {
+    
+    font-family: var(--font_texto);
+    font-size: 14px;
+    font-style: normal; 
+    padding-bottom: 15px;
+    padding-top: 5px;
+    text-align: center;
+    max-width: 400px;
+    
+}
+
+main > p.nome {
+    font-family: var(--font_titulo);
+    font-size: 14px;
+    font-style: normal;
+}
+
+article.aspas > img {
+
+    width: 100px;
+    padding-bottom: 0px;
+    margin: 0px;
+
+}
+
+div.video {
+    background-color: ;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.6%;
+    
+
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+/* Container principal (define o bloco de 50%/50%) */
+.banner-novidades {
+  display: flex;
+  width: 760px;           /* Ajuste a largura total conforme necessário */
+  height: 400px;          /* Altura do bloco */
+  background-color: var(--cor02); /* Tom de azul escuro/preto da imagem */
+  color: #ffffff;
+  font-family: var(--font_titulo);
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+/* Coluna da Esquerda (Texto e Formulário) - 50% */
+.conteudo-texto {
+  flex: 1;                /* Ocupa exatamente 50% */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;    /* Centraliza os itens horizontalmente */
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.conteudo-texto h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 70px;
+}
+
+.conteudo-texto p {
+  font-size: 12px;
+  font-family: var(--font_texto);
+  font-style: normal;
+  color: white;         /* Cinzento claro para o subtítulo */
+  margin-bottom: 80px;
+  
+}
+
+/* Estilização da caixa de input e botão alinhados */
+.form-grupo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 380px;
+  border: 1px solid #a0a2aa6d; /* Borda sutil em volta do grupo */
+  background: transparent;
+}
+
+.form-grupo input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 12px 16px;
+  margin-top: ;
+  color: #ffffff;
+  font-size: 12px;
+  outline: none;
+}
+
+.form-grupo input::placeholder {
+  color: #a0a2aa9c;
+}
+
+.form-grupo button {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.form-grupo button:hover {
+  opacity: 0.8;
+}
+
+/* Coluna da Direita (Imagem) - 50% */
+.banner-novidades img {
+  flex: 1;                /* Ocupa exatamente os outros 50% */
+  width: 50%;
+  height: 100%;
+  object-fit: cover;      /* Garante que a imagem preencha o espaço sem distorcer */
+}
+
+footer {
+    background-color: var(--cor02);
+    font-family: var(--font_texto);
+    color: white;
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 2.4em;
+}
+
+footer > img {
+    padding: 17px;
+    max-width: 15px;
+}
+
+footer > nav {
+    background-color: var(--cor02);
+    padding-bottom: 0px;
+}
+
+footer > p.newsletter {
+    
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #a0a2aa6d;
+    padding: 4px;
+    width: 275px;
+    text-align: left;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 25px;   
+}
+
+
+footer > h4 {
+    color: white;
+    font-family: var(--font_texto);
+    font-weight: normal;
+    font-size: 10px;
+    padding-top: 30px;
+      
+}
+
+footer > h4.identificador {
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 0px;
+
+}
+
+body > p {
+    font-family: var(--font_texto);
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    color: var(--cor02)
+}
+
+body p > a {
+    color: var(--cor02);
+       
+}
+
+
+
+
+
+  

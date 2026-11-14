@@ -1,0 +1,216 @@
+@charset "UTF 8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Fruktur:ital@0;1&family=Isometra&family=Kaushan+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "IDroid";
+    src: url("IDroid.otf") format("opentype");
+    font-weight: normal;
+    font-size: normal;
+}
+
+:root {
+    --cor00: #386641;
+    --cor01: #6a994e;
+    --cor02: #a7c957;
+    --cor03: #f2e8cf;
+    --cor04: #bc4749;
+
+    --fontetitulo: "Open Sans";
+    --fontesubtitulo: "IDroid";
+    --fontepadrao: Arial, helvetica, sanserife;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor03);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor00));
+    font-family: var(--fontetitulo);
+    text-align: center;
+    font-size: 1.2em;
+    min-height: 150px;
+    padding-top: 50px;
+    color: var(--cor03);
+    box-shadow: 3px 3px 7px 1px black;
+    
+}
+
+header h1 {
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.288);
+
+}
+
+header p {
+    padding-top: 20px;
+    font-size: 0.8em;
+    color: var(--cor03);
+    
+
+}
+
+nav {
+    background-color: var(--cor00);
+    padding-bottom: 12px;
+    font-family: var(--fontetitulo);
+    text-align: center;
+    box-shadow: 2px 7px 7px rgba(0, 0, 0, 0.342);
+   
+}
+
+nav a {
+    color: var(--cor03);
+    text-decoration: none;
+    font-size: 1.0em;
+    padding: 3px;
+    
+}
+
+nav a:hover {
+    background-color: var(--cor02);
+    color: black;
+    padding: 6px;
+    border-radius: 2px;
+    transition: 1.0s;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    line-height: 1.5em;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.39);
+    padding: 30px;
+}
+
+main img {
+    width: 100%;
+}
+
+main h1 {
+    font-family: var(--fontesubtitulo);
+    font-size: 1.5em;
+    padding: 6px;
+    color: var(--cor04);
+    background-image: linear-gradient(to right, var(--cor02), transparent);
+    border-radius: 3px;
+}
+
+main p {
+    font-family: var(--fontepadrao);
+    text-indent: 20px;
+    font-size: 0.9em;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+main h2 {
+    color: var(--cor04);
+    font-family: var(--fontesubtitulo);
+    padding: 6px;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor02), transparent);
+    border-radius: 3px;
+}
+
+a.externo {
+    background-color: var(--cor02);
+    color:var(--cor04);
+    padding: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.externo:hover {
+    background-color: var(--cor01);
+    color: var(--cor03);
+    text-decoration: underline;
+}
+
+p.ultimo {
+    padding-top: 10px;
+}
+
+strong {
+    color: var(--cor00);
+}
+
+aside {
+    background-color: #f2e8cf7c;
+    font-family: var(--fontepadrao);
+    padding: 15px;
+    border-radius: 7px 0px 7px 0px;
+}
+
+aside > h3 {
+    background-color: var(--cor01);
+    padding: 12px;
+    border-radius: 7px 0px 7px 0px;
+    font-family: var(--fontetitulo);
+    color: var(--cor03);
+    border-color: aliceblue;
+}
+
+aside ul > li {
+    font-family: var(--fontepadrao);
+    color: black;
+    font-weight: bold;
+    
+}
+
+aside > ul {
+    list-style: "\2714\00A0\00A0";
+    list-style-position: inside;
+    columns: 2;
+    margin: 10px;
+    
+}
+
+footer {
+    background-color: var(--cor00);
+    padding: 20px;
+    font-family: var(--fontetitulo);
+    font-size: 0.9em;
+    text-align: center;
+    color: var(--cor03);
+
+}
+
+footer a {
+    color: var(--cor03);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+footer a:hover {
+    color: var(--cor04);
+    font-weight: bold;
+}
+
+div.video {
+    background-color: var(--cor01);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.6%;
+
+    position:relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+

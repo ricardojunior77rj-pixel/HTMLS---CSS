@@ -1,0 +1,25 @@
+@charset "UTF 8";
+
+header {
+    background-color: aquamarine;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    background-color: rgb(115, 115, 115);
+}
+
+aside {
+    background-color: rgb(146, 122, 122);
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    background-color: rgb(178, 143, 211);
+}

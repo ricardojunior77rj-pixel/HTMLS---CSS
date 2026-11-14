@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Fruktur:ital@0;1&family=Isometra&family=Kaushan+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #023BE6;
+    --cor1: #0231BD;
+    --cor2: #01258F;
+    --cor3: #011C6B;
+    --cor4: #011142;
+
+    --font-titulo: "Fruktur";
+    --font-texto: Arial, helvetica, cursive;
+
+}
+
+header {
+    background-image: linear-gradient(to right, #023BE6, #011142);
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: var(--font-titulo);
+    color: aliceblue;
+    text-align: center;
+}
+
+header p {
+    padding: 15px;
+    font-family: var(--font-texto);
+    font-weight: bold;
+}
+
+nav {
+    background-image: linear-gradient(to right,  #023BE6, #011142);
+    padding: 10px;
+}
+
+nav > a {
+    color: #46aeeb;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav > a:hover {
+    color: #011142;
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+article > h1 {
+    font-family: var(--font-titulo);
+    padding: 10px;
+}
+
+
+
+
+
+body {
+    background-color: rgba(255, 255, 255, 0.719);
+
+    font-family: var(--font-texto);
+}
